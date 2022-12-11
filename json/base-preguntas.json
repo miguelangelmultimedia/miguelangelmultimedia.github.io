@@ -1,0 +1,103 @@
+[
+    {
+        "pregunta":"El glaciar Vatnajökull es...",
+        "respuesta":"el segundo glaciar más grande de Europa",
+        "incorrecta1":"El glaciar más grande del mundo",
+        "incorrecta2":"El lugar más frío del planeta (Sin contar la Antártida)",
+        "incorrecta3":"El más grande de todo el continente",
+        "imagen":"../images/preg1.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"¿Cuál es la longitud de Hringvegur?",
+        "respuesta":"1300 kmts",
+        "incorrecta1":"712 kmts",
+        "incorrecta2":"658 kmts",
+        "incorrecta3":"1508 kmts",
+        "imagen":"../images/preg2.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"¿Cuántos días al año podemos observar Auroras Boreales en Islandia?",
+        "respuesta":"200",
+        "incorrecta1":"130",
+        "incorrecta2":"48",
+        "incorrecta3":"75",
+        "imagen":"../images/preg3.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"Cada año, estas placas se alejan entre sí...",
+        "respuesta":"2 ctms",
+        "incorrecta1":"6 cmts",
+        "incorrecta2":"3 mts",
+        "incorrecta3":"18 cmts",
+        "imagen":"../images/preg4.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"¿En qué año se derogó la ley que permitía asesinar vascos?",
+        "respuesta":"2015",
+        "incorrecta1":"1944",
+        "incorrecta2":"2006",
+        "incorrecta3":"1987",
+        "imagen":"../images/preg5.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"¿A qué altura puede llegar el géiser Strokkur de media?",
+        "respuesta":"20 mts",
+        "incorrecta1":"12 mts",
+        "incorrecta2":"28 mts",
+        "incorrecta3":"7 mts",
+        "imagen":"../images/preg6.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"¿De qué país se independizó Islandia?",
+        "respuesta":"Dinamarca",
+        "incorrecta1":"Noruega",
+        "incorrecta2":"Reino Unido",
+        "incorrecta3":"Groenlandia",
+        "imagen":"../images/preg7.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"La corriente del golfo se origina en...",
+        "respuesta":"el golfo de México",
+        "incorrecta1":"Península de Kola (Rusia)",
+        "incorrecta2":"Norte de Canadá",
+        "incorrecta3":"El mar mediterráneo",
+        "imagen":"../images/preg8.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"¿Cuantos volcanes activos hay en Islandia?",
+        "respuesta":"32",
+        "incorrecta1":"28",
+        "incorrecta2":"17",
+        "incorrecta3":"45",
+        "imagen":"../images/preg9.jpg",
+        "object-fit":"cover"
+    },
+
+    {
+        "pregunta":"En el mundial de Rusia 2018, Islandia fue eliminada en...",
+        "respuesta":"Fase de Grupos",
+        "incorrecta1":"Cuartos de final",
+        "incorrecta2":"Octavos de final",
+        "incorrecta3":"Semifinal",
+        "imagen":"../images/preg10.jpg",
+        "object-fit":"cover"
+    }
+
+]
+

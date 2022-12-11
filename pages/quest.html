@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Cuestionario Sobre Islandia">
+	<meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<link rel="stylesheet" href="../css/estilos.css">    
+
+    <title>Cuestionario</title>
+	<link rel = "icon" href ="../images/favicon.ico" type = "image/x-icon">
+</head>
+<body align="center">
+    <header>
+		
+		<table class="table-quest">
+			<tr>
+				<td width="30%"> 
+					<a href="../index.html" class="button button--flex"> 
+						<i class="uil uil-backward button__icon"></i> <p class="text-button">Home</p></a></td>
+				<td> <h1 class="titulo"><B>Cuestionario</B></h1></td>
+				<td width="30%">
+					<a href="" class="button button--flex">
+					<i class="uil uil-redo button__icon"></i> <p class="text-button">Reiniciar</p></a>
+				</td>
+			</tr>
+		</table>
+		
+	</header> 
+
+	<main>
+		<div class="contenedorQuest">
+			<table class="table_imagen">
+				<tr>
+					<td class="progreso" id="progreso" align="left" width="16%">7/10</td>
+					<td><div align="center" class="pregunta" id="pregunta">Pregunta</div></td>
+					<td class="puntos" id="puntos" align="right" width="16%"> 300pts</td>
+				</tr>
+			</table>
+            <div class="elementos" align="center">
+				<img src="" class="img-preg" id="img-preg">
+			</div>
+			<div class="btn" id="btn1" onclick="pulsarBoton(0)" align="center"> Opcion 1</div>
+			<div class="btn" id="btn2" onclick="pulsarBoton(1)" align="center">Opcion 2</div>
+			<div class="btn" id="btn3" onclick="pulsarBoton(2)" align="center">Opcion 3</div>
+			<div class="btn" id="btn4" onclick="pulsarBoton(3)" align="center">Opcion 4</div>
+			<br>
+		</div>
+	</main>
+	<script src="../js/script-preguntas.js" type="text/javascript"></script>
+
+	<footer class="footer">
+		<div class="footer__bg" align="center">
+			<div class="footer__container container grid" align="center" >
+				<div>
+					<h1 class="footer__title">Miguel Ángel</h1>
+					<span class="footer__subtitle">Trabajo de prácticas Multimedia</span>
+				</div>
+				<ul class="footer__links">
+					<li>
+					<a href="https://www.youtube.com/@UnMundoInmenso" target="_blank" class="footer__link"> Creador del vídeo </a></li>
+					<li>
+					<a href="#skills" class="footer__link">Memoria de prácticas</a></li>
+				</ul>
+				<div class="footer__socials">
+					<a href="mailto:MiguelAngel.sanchez17@alu.uclm.es" target="_blank" class="footer__social">
+						<i class="uil uil-envelope"></i></a>
+					
+					<a href="https://linkedin.es" target="_blank" class="footer__social">
+						<i class="uil uil-linkedin"></i></a>
+					
+					<a href="https://github.com/Miguel-Angel-Sanchez" target="_blank" class="footer__social">
+						<i class="uil uil-github-alt"></i>
+					</a>
+				</div>
+			</div>
+			<p class="footer__copy">&#169; Miguel Ángel. Copyright 2022</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,298 @@
+
+:root{    
+    --first-color: #0c1012 ;
+	--first-color-lighter: #008de6 ;
+    /*-----------FUENTES-------------*/
+
+    --h1-font-size: 2.25rem;
+    --font-medium:500;
+    --font-semi-bold: 600;
+
+    /*----------MARGENES-----------*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	transition:all 0.3s;
+}
+
+h1,h2,h3,h4{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.container{
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+body {
+	background: #F4F4FA;
+    font-family: 'Open Sans', sans-serif;
+	
+}
+
+iframe 
+{
+ display: block; 
+ width: 100%; 
+ border: none; 
+ overflow-y: auto; 
+ overflow-x: hidden;
+}
+
+header {
+	background:#162B4E;
+	color: #fff;
+	text-align: center;
+	padding: 50px 0;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+
+.table-quest{
+	width: 100%;
+}
+
+
+.button{
+    display: inline-block;
+    background-color:#162B4E;
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+	border: solid 1px;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.button:hover{
+    background-color: #101f38 ;
+	color:white;
+}
+
+.button__icon{
+    font-size: 1.25rem;
+	margin-right: .3rem;
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
+
+.table_imagen{
+	width: 100%;
+	padding: 0.5rem;
+}
+
+.video-js {
+	position: relative;
+	display:flex;
+
+}
+header .titulo {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color:white;
+}
+
+main {
+	margin-top: 150px;
+}
+
+main .contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+main .contenedorQuest {
+	width:75%;
+	margin: auto;
+	background: #fff;
+	color: #000;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	margin-bottom:35px;
+}
+
+
+.article {
+	margin: 50px 0;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 40px;
+}
+.contenido {
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.article h2 {
+	color: #2D5F85;
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+td img{
+	cursor: pointer;
+}
+
+table{
+	border-spacing: 0;
+	vertical-align: bottom;
+}
+
+.elementos{
+	background:white;
+	min-width:300px;
+	width:70%;
+	padding:10px;
+}
+.pregunta{
+	padding:10px;
+	font-size: 23px;
+	font-weight: bold;
+}
+.img-preg{
+	object-fit: cover;
+	height:auto;
+	width:90%;
+}
+.btn{
+	background:#162B4E;
+	color:white;
+	width: 60%;
+	padding:10px;
+	margin:5px;
+	border: solid 1px #162B4E;
+	font-weight: bold;
+	cursor: pointer;
+}
+/* ------------------------ FOOTER -------------*/
+
+.footer{
+    padding-top: 2rem;
+}
+ul{
+    list-style: none;
+}
+
+.footer__container{
+    row-gap: 3.5rem;
+}
+
+.footer__bg{
+    background-color: var(--first-color);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle{
+    font-size: var(--small-font-size);
+}
+
+.footer__links{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+	
+}
+a.footer__link{
+	text-decoration: none;
+}
+
+.footer__link:hover{
+    color: var(--first-color-lighter);
+}
+
+.footer__social{
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+	
+}
+
+.footer__social:hover{
+    color: var(--first-color-lighter);
+}
+
+.footer__copy{
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: whitesmoke;
+    margin-top: var(--mb-3);
+}
+
+.footer__title,.footer__subtitle,.footer__link,.footer__social{
+    color:white;
+}
+
+.footer__container{
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		position: relative;
+		height: auto;
+	}
+
+	main {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.text-button{
+		display:none;
+	}
+	.progreso, .puntos{
+		display: none;
+	}
+	main .contenedorQuest {
+		width: 100%;
+	}
+	.footer__title{
+		font-size: 29px;
+		margin-bottom: var(--mb-0-25);
+	}
+}
+
+@media screen and (max-width: 350px){
+	.titulo{
+		display: none;
+	}
+}
