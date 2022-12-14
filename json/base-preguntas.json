@@ -5,7 +5,7 @@
         "incorrecta1":"El glaciar más grande del mundo",
         "incorrecta2":"El lugar más frío del planeta (Sin contar la Antártida)",
         "incorrecta3":"El más grande de todo el continente",
-        "imagen":"../images/preg1.jpg",
+        "imagen":"../images/preg1.webp",
         "object-fit":"cover"
     },
 
@@ -15,7 +15,7 @@
         "incorrecta1":"712 kmts",
         "incorrecta2":"658 kmts",
         "incorrecta3":"1508 kmts",
-        "imagen":"../images/preg2.jpg",
+        "imagen":"../images/preg2.webp",
         "object-fit":"cover"
     },
 
@@ -25,7 +25,7 @@
         "incorrecta1":"130",
         "incorrecta2":"48",
         "incorrecta3":"75",
-        "imagen":"../images/preg3.jpg",
+        "imagen":"../images/preg3.webp",
         "object-fit":"cover"
     },
 
@@ -35,7 +35,7 @@
         "incorrecta1":"6 cmts",
         "incorrecta2":"3 mts",
         "incorrecta3":"18 cmts",
-        "imagen":"../images/preg4.jpg",
+        "imagen":"../images/preg4.webp",
         "object-fit":"cover"
     },
 
@@ -45,7 +45,7 @@
         "incorrecta1":"1944",
         "incorrecta2":"2006",
         "incorrecta3":"1987",
-        "imagen":"../images/preg5.jpg",
+        "imagen":"../images/preg5.webp",
         "object-fit":"cover"
     },
 
@@ -55,7 +55,7 @@
         "incorrecta1":"12 mts",
         "incorrecta2":"28 mts",
         "incorrecta3":"7 mts",
-        "imagen":"../images/preg6.jpg",
+        "imagen":"../images/preg6.webp",
         "object-fit":"cover"
     },
 
@@ -65,7 +65,7 @@
         "incorrecta1":"Noruega",
         "incorrecta2":"Reino Unido",
         "incorrecta3":"Groenlandia",
-        "imagen":"../images/preg7.jpg",
+        "imagen":"../images/preg7.webp",
         "object-fit":"cover"
     },
 
@@ -75,7 +75,7 @@
         "incorrecta1":"Península de Kola (Rusia)",
         "incorrecta2":"Norte de Canadá",
         "incorrecta3":"El mar mediterráneo",
-        "imagen":"../images/preg8.jpg",
+        "imagen":"../images/preg8.webp",
         "object-fit":"cover"
     },
 
@@ -85,7 +85,7 @@
         "incorrecta1":"28",
         "incorrecta2":"17",
         "incorrecta3":"45",
-        "imagen":"../images/preg9.jpg",
+        "imagen":"../images/preg9.webp",
         "object-fit":"cover"
     },
 
@@ -95,7 +95,7 @@
         "incorrecta1":"Cuartos de final",
         "incorrecta2":"Octavos de final",
         "incorrecta3":"Semifinal",
-        "imagen":"../images/preg10.jpg",
+        "imagen":"../images/preg10.webp",
         "object-fit":"cover"
     }
 

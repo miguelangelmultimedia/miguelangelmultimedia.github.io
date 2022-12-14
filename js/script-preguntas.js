@@ -73,7 +73,9 @@ function pulsarBoton(i){
         if(!clicked){
         btns[i]. style.background = "#3E906F";
         btns[i].style.border = " solid 1px #3E906F";
-        preguntas_correctas++;
+        if(preguntas_correctas < 10){
+            preguntas_correctas++;
+        }
         puntuacion +=30;
         clicked = true;
         interprete_base.splice(num_aleatorio,1);
